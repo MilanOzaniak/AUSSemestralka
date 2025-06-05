@@ -1,0 +1,151 @@
+﻿  main_form.cpp
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\complexities\list_analyzer.h(20,28): warning C4101: 'preparedIndex_': unreferenced local variable
+  (compiling source file 'main_form.cpp')
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(136,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(136,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\array.test.h(24,45):
+          see reference to class template instantiation 'ds::adt::Array<int>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\array.h(31,51):
+          see reference to class template instantiation 'ds::amt::ImplicitSequence<T>' being compiled
+          with
+          [
+              T=int
+          ]
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(135,5):
+          while compiling class template member function 'ds::amt::MemoryBlock<DataType> *ds::amt::ImplicitSequence<DataType>::accessNext(const ds::amt::MemoryBlock<DataType> &) const'
+          with
+          [
+              DataType=int
+          ]
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(146,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(146,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(145,5):
+          while compiling class template member function 'ds::amt::MemoryBlock<DataType> *ds::amt::ImplicitSequence<DataType>::accessPrevious(const ds::amt::MemoryBlock<DataType> &) const'
+          with
+          [
+              DataType=int
+          ]
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(685,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(685,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\HashTable_Analyzer.h(11,44):
+          see reference to class template instantiation 'ds::utils::ComplexityAnalyzer<ds::adt::HashTable<int,int>>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\complexities\complexity_analyzer.h(126,18):
+          see reference to variable template 'const bool is_default_constructible_v<ds::adt::HashTable<int,int> >' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\complexities\complexity_analyzer.h(126,18):
+          see reference to class template instantiation 'ds::adt::HashTable<int,int>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(684,5):
+          while compiling class template member function 'bool ds::adt::HashTable<int,int>::tryFind(const K &,T *&) const'
+          with
+          [
+              K=int,
+              T=int
+          ]
+              C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\HashTable_Analyzer.h(71,30):
+              see the first reference to 'ds::adt::HashTable<int,int>::tryFind' in 'ds::utils::HashTableFindAnalyzer::executeOperation'
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(311,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(311,12):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\amt\implicit_sequence.test.h(55,46):
+          see reference to class template instantiation 'ds::amt::CyclicImplicitSequence<int>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(310,2):
+          while compiling class template member function 'size_t ds::amt::CyclicImplicitSequence<int>::indexOfNext(size_t) const'
+              C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\amt\implicit_sequence.test.h(62,32):
+              see the first reference to 'ds::amt::CyclicImplicitSequence<int>::indexOfNext' in 'ds::tests::CyclicImplicitSequenceTestIndexOfRelative::test'
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(324,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(324,12):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(323,2):
+          while compiling class template member function 'size_t ds::amt::CyclicImplicitSequence<int>::indexOfPrevious(size_t) const'
+              C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\amt\implicit_sequence.test.h(63,32):
+              see the first reference to 'ds::amt::CyclicImplicitSequence<int>::indexOfPrevious' in 'ds::tests::CyclicImplicitSequenceTestIndexOfRelative::test'
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(1113,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(1113,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\table.test.h(530,84):
+          while compiling class template member function 'std::unique_ptr<ds::tests::Test,std::default_delete<_Ty>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          with
+          [
+              _Ty=ds::tests::Test
+          ]
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\table.test.h(530,84):
+          while processing the default template argument of 'std::unique_ptr<ds::tests::Test,std::default_delete<_Ty>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          with
+          [
+              _Ty=ds::tests::Test
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3377,20):
+          see reference to variable template 'const bool conjunction_v<std::negation<std::is_array<ds::tests::GeneralTableTest<ds::adt::Treap<int,int> > > >,std::is_convertible<ds::tests::GeneralTableTest<ds::adt::Treap<int,int> > *,ds::tests::Test *>,std::is_convertible<std::default_delete<ds::tests::GeneralTableTest<ds::adt::Treap<int,int> > >,std::default_delete<ds::tests::Test> > >' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3377,20):
+          see reference to class template instantiation 'std::is_convertible<ds::tests::GeneralTableTest<ds::adt::Treap<int,int>> *,_Ty *>' being compiled
+          with
+          [
+              _Ty=ds::tests::Test
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\type_traits(322,39):
+          see reference to class template instantiation 'ds::tests::GeneralTableTest<ds::adt::Treap<int,int>>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\table.test.h(490,9):
+          while compiling class template member function 'ds::tests::GeneralTableTest<ds::adt::Treap<int,int>>::GeneralTableTest(const std::string &)'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,5):
+              see the first reference to 'ds::tests::GeneralTableTest<ds::adt::Treap<int,int>>::GeneralTableTest' in 'std::make_unique'
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\table.test.h(500,71):
+          while compiling class template member function 'std::unique_ptr<ds::tests::Test,std::default_delete<_Ty>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          with
+          [
+              _Ty=ds::tests::Test
+          ]
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\table.test.h(500,71):
+          while processing the default template argument of 'std::unique_ptr<ds::tests::Test,std::default_delete<_Ty>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          with
+          [
+              _Ty=ds::tests::Test
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3377,20):
+          see reference to variable template 'const bool conjunction_v<std::negation<std::is_array<ds::tests::TableTestScenario<ds::adt::Treap<int,int> > > >,std::is_convertible<ds::tests::TableTestScenario<ds::adt::Treap<int,int> > *,ds::tests::Test *>,std::is_convertible<std::default_delete<ds::tests::TableTestScenario<ds::adt::Treap<int,int> > >,std::default_delete<ds::tests::Test> > >' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3377,20):
+          see reference to class template instantiation 'std::is_convertible<ds::tests::TableTestScenario<TableT> *,_Ty *>' being compiled
+          with
+          [
+              TableT=ds::adt::Treap<int,int>,
+              _Ty=ds::tests::Test
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\type_traits(322,39):
+          see reference to class template instantiation 'ds::tests::TableTestScenario<TableT>' being compiled
+          with
+          [
+              TableT=ds::adt::Treap<int,int>
+          ]
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\table.test.h(418,14):
+          while compiling class template member function 'void ds::tests::TableTestScenario<TableT>::test(void)'
+          with
+          [
+              TableT=ds::adt::Treap<int,int>
+          ]
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\table.test.h(426,32):
+          see reference to class template instantiation 'ds::adt::Treap<int,int>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(1112,5):
+          while compiling class template member function 'void ds::adt::Treap<int,int>::balanceTree(ds::amt::BinaryExplicitHierarchyBlock<DataType> *)'
+          with
+          [
+              DataType=ds::adt::TreapItem<int,int>
+          ]
+  
+  main_form.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  DataStructures.lib(test.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
+  Gui.vcxproj -> C:\Users\Milan\Desktop\AUS-VS2022\x64\Release\Gui.exe

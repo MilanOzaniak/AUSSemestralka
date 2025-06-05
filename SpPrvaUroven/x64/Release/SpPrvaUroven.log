@@ -1,0 +1,55 @@
+﻿  SpPrvaUroven.cpp
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(136,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'SpPrvaUroven.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(136,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\SpPrvaUroven\Obec.h(15,42):
+          see reference to class template instantiation 'ds::amt::ImplicitSequence<Obyvatelstvo>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(135,5):
+          while compiling class template member function 'ds::amt::MemoryBlock<DataType> *ds::amt::ImplicitSequence<DataType>::accessNext(const ds::amt::MemoryBlock<DataType> &) const'
+          with
+          [
+              DataType=Obyvatelstvo
+          ]
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(146,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'SpPrvaUroven.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(146,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(145,5):
+          while compiling class template member function 'ds::amt::MemoryBlock<DataType> *ds::amt::ImplicitSequence<DataType>::accessPrevious(const ds::amt::MemoryBlock<DataType> &) const'
+          with
+          [
+              DataType=Obyvatelstvo
+          ]
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(685,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'SpPrvaUroven.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(685,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\SpPrvaUroven\ReadCSV.h(22,69):
+          see reference to class template instantiation 'ds::adt::HashTable<std::string,ds::amt::ImplicitSequence<T> *>' being compiled
+          with
+          [
+              T=Obec *
+          ]
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(684,5):
+          while compiling class template member function 'bool ds::adt::HashTable<std::string,ds::amt::ImplicitSequence<T> *>::tryFind(const K &,ds::amt::ImplicitSequence<T> **&) const'
+          with
+          [
+              T=Obec *,
+              K=std::string
+          ]
+              C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\table.h(636,13):
+              see the first reference to 'ds::adt::HashTable<std::string,ds::amt::ImplicitSequence<T> *>::tryFind' in 'ds::adt::HashTable<std::string,ds::amt::ImplicitSequence<T> *>::equals'
+          with
+          [
+              T=Obec *
+          ]
+  
+  Generating code
+  1 of 1573 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SpPrvaUroven.vcxproj -> C:\Users\Milan\Desktop\AUS-VS2022\x64\Release\SpPrvaUroven.exe

@@ -1,0 +1,10 @@
+C:\Users\mathi\Downloads\AUS-VS2022\AUS-VS2022\x64\Debug\images\fail.png
+C:\Users\mathi\Downloads\AUS-VS2022\AUS-VS2022\x64\Debug\images\info.png
+C:\Users\mathi\Downloads\AUS-VS2022\AUS-VS2022\x64\Debug\images\pass.png
+C:\Users\mathi\Downloads\AUS-VS2022\AUS-VS2022\x64\Debug\images\warning.png
+C:\Users\mathi\Downloads\AUS-VS2022\AUS-VS2022\Gui\x64\Debug\Gui.vcxproj.AssemblyReference.cache
+C:\Users\Milan\Desktop\AUS-VS2022\x64\Debug\images\fail.png
+C:\Users\Milan\Desktop\AUS-VS2022\x64\Debug\images\info.png
+C:\Users\Milan\Desktop\AUS-VS2022\x64\Debug\images\pass.png
+C:\Users\Milan\Desktop\AUS-VS2022\x64\Debug\images\warning.png
+C:\Users\Milan\Desktop\AUS-VS2022\Gui\x64\Debug\Gui.vcxproj.AssemblyReference.cache

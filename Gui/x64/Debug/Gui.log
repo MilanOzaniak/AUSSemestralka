@@ -1,0 +1,59 @@
+﻿  main_form.cpp
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\complexities\list_analyzer.h(20,28): warning C4101: 'preparedIndex_': unreferenced local variable
+  (compiling source file 'main_form.cpp')
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(136,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(136,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\adt\array.test.h(24,45):
+          see reference to class template instantiation 'ds::adt::Array<int>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\adt\array.h(31,51):
+          see reference to class template instantiation 'ds::amt::ImplicitSequence<T>' being compiled
+          with
+          [
+              T=int
+          ]
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(135,5):
+          while compiling class template member function 'ds::amt::MemoryBlock<DataType> *ds::amt::ImplicitSequence<DataType>::accessNext(const ds::amt::MemoryBlock<DataType> &) const'
+          with
+          [
+              DataType=int
+          ]
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(146,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(146,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(145,5):
+          while compiling class template member function 'ds::amt::MemoryBlock<DataType> *ds::amt::ImplicitSequence<DataType>::accessPrevious(const ds::amt::MemoryBlock<DataType> &) const'
+          with
+          [
+              DataType=int
+          ]
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(311,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(311,12):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\amt\implicit_sequence.test.h(55,46):
+          see reference to class template instantiation 'ds::amt::CyclicImplicitSequence<int>' being compiled
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(310,2):
+          while compiling class template member function 'size_t ds::amt::CyclicImplicitSequence<int>::indexOfNext(size_t) const'
+              C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\amt\implicit_sequence.test.h(62,32):
+              see the first reference to 'ds::amt::CyclicImplicitSequence<int>::indexOfNext' in 'ds::tests::CyclicImplicitSequenceTestIndexOfRelative::test'
+  
+C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(324,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main_form.cpp')
+      C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(324,12):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\libds\amt\implicit_sequence.h(323,2):
+          while compiling class template member function 'size_t ds::amt::CyclicImplicitSequence<int>::indexOfPrevious(size_t) const'
+              C:\Users\Milan\Desktop\AUS-VS2022\DataStructures\tests\amt\implicit_sequence.test.h(63,32):
+              see the first reference to 'ds::amt::CyclicImplicitSequence<int>::indexOfPrevious' in 'ds::tests::CyclicImplicitSequenceTestIndexOfRelative::test'
+  
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  main_form.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+DataStructures.lib(test.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Gui.vcxproj -> C:\Users\Milan\Desktop\AUS-VS2022\x64\Debug\Gui.exe

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Milan\Desktop\AUS-VS2022\x64\Release\Gui.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\Milan\Desktop\AUS-VS2022\Gui\images\fail.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Milan\Desktop\AUS-VS2022\Gui\images\info.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Milan\Desktop\AUS-VS2022\Gui\images\pass.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Milan\Desktop\AUS-VS2022\Gui\images\warning.png</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
